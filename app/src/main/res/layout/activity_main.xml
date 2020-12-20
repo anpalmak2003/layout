@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent"
+                                                   tools:context=".MainActivity">
+
+    <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:gravity="center"
+                android:text="Меню"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+    </LinearLayout>
+
+    <TableLayout
+            android:layout_width="414dp"
+            android:layout_height="662dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="72dp">
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <Button
+                    android:id="@+id/button1"
+                    android:layout_width="207dp"
+                    android:layout_height="126dp"
+                    android:gravity="center"
+                    android:text="Выбрать город"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                    android:textSize="30sp" />
+
+            <Button
+                    android:id="@+id/button2"
+                    android:layout_width="207dp"
+                    android:layout_height="126dp"
+                    android:gravity="center"
+                    android:text="Места поблизости"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                    android:textSize="30sp" />
+        </TableRow>
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        <Button
+                android:id="@+id/button3"
+                android:layout_width="207dp"
+                android:layout_height="126dp"
+                android:gravity="center"
+                android:text="Мои закладки"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textSize="30sp" />
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <Button
+                    android:id="@+id/button4"
+                    android:layout_width="207dp"
+                    android:layout_height="126dp"
+                    android:gravity="center"
+                    android:text="Мои отзывы"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                    android:textSize="30sp" />
+
+            <Button
+                    android:id="@+id/button5"
+                    android:layout_width="207dp"
+                    android:layout_height="126dp"
+                    android:gravity="center"
+                    android:text="Мой аккаунт"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                    android:textSize="30sp" />
+        </TableRow>
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        <Button
+                android:id="@+id/button6"
+                android:layout_width="207dp"
+                android:layout_height="126dp"
+                android:gravity="center"
+                android:text="Настройки"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textSize="30sp" />
+
+    </TableLayout>
+
+    <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>
